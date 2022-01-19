@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="utf-8">
+    <title>Pseudo Class Selectors</title>
+    <style>
+
+        li {
+            list-style: none;
+        }
+
+        h1 {
+            font-size: 24 px;
+        }
+
+        a:link , a:visited{
+            text-decoration: none;
+            color: black ;
+            background-color: green;
+            display: block;
+            margin-bottom: 1px ;
+            width: 200px ;
+            border: 1px solid blue ;
+            text-align: center;
+        }
+
+        a:hover , a:active{
+            color: blue ;
+            background-color: red;
+        }
+
+        div:nth-child(odd){
+            background-color: grey;
+        }
+
+        ul li:nth-child(3){
+            font-size: 22px;
+        }
+
+        section div:nth-child(4):hover{
+            background-color: orangered;
+        }
+
+    </style>
+</head>
+<body>
+    <h1> Pseudo Class Selectors </h1>
+    <ul>
+    <li> <a href="https://www.techwalla.com/articles/how-to-align-a-bullet-list-in-html" target = "_Blank"> Home </a> </li>
+    <li> <a href="https://angularjs.org/" target = "_Blank"> AngularJS Course </a> </li>
+    <li> <a href="https://www.facebook.com/" target="_Blank"> Facebook Fan Page </a> </li>
+    </ul>
+
+    <section>
+    <div>DIV 1</div>
+    <div>DIV 2</div>
+    <div>DIV 3</div>
+    <div>DIV 4</div>
+    <div>DIV 5</div>
+    <div>DIV 6</div>
+    <div>DIV 7</div>
+    <div>DIV 8</div>
+    <div>DIV 9</div>
+    <div>DIV 10</div>
+    <div>DIV 11</div>
+    <div>DIV 12</div>
+    <div>DIV 13</div>
+    <div>DIV 14</div>
+    </section>
+</body>
+</html>
