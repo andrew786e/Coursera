@@ -1,0 +1,337 @@
+body{
+    font-size: 16px;
+    color: #fff ;
+    background-color: #61122f;
+    font-family: 'Oxygen' , sans-serif;
+}
+
+#header-nav{
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img{
+    background: url("../Images/restaurant-logo_large.png");
+    width: 150px ;
+    height: 150px ;
+    margin: 0px 15px 10px 0px ;
+}
+
+.navbar-brand h1{
+    font-family: 'Lora', serif ;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: .75;
+    padding-top: 20px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a:link{
+    text-decoration: none;
+}
+
+
+.navbar-brand p {
+    color: #000 ;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px ;
+
+}
+
+.navbar-brand p span {
+    vertical-align: middle;
+}
+
+.navbar-dark{
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+.nav-link{
+    color:#61122f !important ;
+}
+
+
+.bi, .num{
+    font-size: 25px;
+}
+
+.menu-pos{
+    position: relative;
+    top: -35px;
+}
+
+.navbar-nav a:hover{
+    background-color: #fff;
+}
+
+.last-pos{
+    padding-bottom: 0px;
+}
+
+.navbar-dark .navbar-toggler{
+    color: #61122f;
+}
+
+/* Extra small devices */
+@media (max-width: 767px) {
+    .menu-pos{
+        position: relative;
+        top: 0px;
+    }
+
+    .container{
+        max-width: 100%;
+    }
+
+}
+
+
+
+/* Small devices only */
+@media(min-width: 768px) and (max-width: 991px){
+    #logo-img{
+        background: url("../Images/restaurnat_image.png");
+        width: 100px ;
+        height: 100px ;
+        margin: 5px 5px 5px 0px ;
+    }
+
+    .menu-pos{
+        position: relative;
+        top: 0px;
+    }
+}
+
+.jumbotron{
+    margin-top: 20px;
+}
+
+/* Medium devices only */
+
+@media (min-width:992px) and (max-width: 1199px){
+
+}
+
+/* Large devices only */
+@media (min-width: 1200px) and (max-width: 1399px){
+    .jumbotron{
+        background: url(../Images/jumbotron_1200.jpeg) no-repeat;
+        width: 100% ;
+        height: 650px;
+        box-shadow: 0 0 50px #3f0c1f;
+        border: 2px solid #3f0c1f;
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+    .jumbotron{
+        background: url(../Images/jumbotron_992.jpeg) no-repeat;
+        width: 100% ;
+        height: 558px;
+        box-shadow: 0 0 50px #3f0c1f;
+        border: 2px solid #3f0c1f;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    .jumbotron{
+        background: url(../Images/jumbotron_768.jpeg) no-repeat;
+        width: 100% ;
+        height: 432px;
+        box-shadow: 0 0 50px #3f0c1f;
+        border: 2px solid #3f0c1f;
+    }
+}
+
+@media(min-width: 577px) and (max-width: 767px){
+    .btn{
+        width:100% ;
+        margin-top: 20px;
+        font-size: 1.5em;
+        padding: 10px;
+        border: 2px solid #fff;
+        background-color: #f6b319;
+        color: #951c49;
+    }
+}
+
+#menu-tile, #specials-tile, #map-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+  
+#menu-tile {
+    background: url('../Images/menu-tile.jpeg') no-repeat;
+    background-position: center;
+}
+
+#specials-tile {
+    background: url('../Images/specials-tile.jpeg') no-repeat;
+    background-position: center;
+}
+  
+#menu-tile span, #specials-tile span, #map-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+
+.jumbotron{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 576px){
+    #menu-tile, #specials-tile {
+        height: 250px;
+        width: 250px;
+        margin: auto ;
+        margin-bottom: 20px; 
+    }
+}
+
+.panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+}
+
+/* .panel-footer section hr {
+    width: 50%;
+} */
+
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+}
+
+.panel-footer div.row {
+    margin-bottom: 35px;
+}
+
+@media(max-width: 575px){
+    .panel-footer section hr {
+        display: block !important;
+        width: 50%;
+        margin: auto;
+    }
+}
+
+/* MENU CATEGORIES PAGE */
+.category-tile { 
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+}
+
+.category-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+
+.category-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+  
+#menu-categories-title + div {
+    margin-bottom: 50px;
+}
+
+#menu-categories-title  {
+    margin-top: 52px;
+}
+
+/* SINGLE CATEGORY PAGE */
+.menu-item-tile {
+    margin-bottom: 25px;
+}
+
+.menu-item-tile hr {
+    width: 80%;
+}
+  
+.menu-item-tile .menu-item-price {
+    font-size: 1.1em;
+    text-align: right;
+    margin-top: -15px;
+    margin-right: -15px;
+}
+
+.menu-item-tile .menu-item-price span {
+    font-size: .6em;
+}
+
+.menu-item-photo {
+    position: relative;
+    border: 2px solid #3F0C1F; 
+    overflow: hidden;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+}
+
+.menu-item-photo div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    background-color: #557c3e;
+    text-align: center;
+}
+
+.menu-item-description {
+    padding-right: 30px;
+  
+}
+
+h3.menu-item-title {
+    margin: 0 0 10px;
+}
+  
+.menu-item-details {
+    font-size: .9em;
+    font-style: italic;
+}
+
+/* END SINGLE CATEGORY PAGE */

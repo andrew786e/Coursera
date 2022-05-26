@@ -1,0 +1,13 @@
+@media(max-width:575px){
+    .container{
+        width: 80% ;
+    }
+
+    .navbar-brand{
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+}
+.part-height{
+    height: 1000px ;
+}
